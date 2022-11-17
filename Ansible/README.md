@@ -24,4 +24,4 @@ ansible-playbook site.yml
 https://www.redhat.com/sysadmin/deploying-static-website-ansible \
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-static-html-website-with-ansible-on-ubuntu-20-04-nginx \
 https://www.serverlab.ca/tutorials/dev-ops/automation/how-to-use-ansible-to-deploy-your-website/ \
-https://graspingtech.com/ansible-nginx-static-site/ \
+https://graspingtech.com/ansible-nginx-static-site/
