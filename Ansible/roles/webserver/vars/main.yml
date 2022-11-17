@@ -1,0 +1,13 @@
+---
+# vars file for webserver
+webserver_packages:
+  - nginx
+  - git
+
+server_name: "{{ ansible_default_ipv4.address }}"
+root: /var/www/html/sample_website # where website files are stored on server
+
+repository: https://github.com/Josef-Beppe/sample_website_for_automation.git
+
+# when deploying from local storage
+#root_local: sample_website # where files to be deployed are stored
