@@ -12,7 +12,8 @@ apt install ansible
 ```bash
 ansible-playbook site.yml
 ```
-4. If content of github repository changes, using command in step 3 will also update the webpage on NGINX. Command can run in the background once in a while and the update will happen automatically (tested with watch command).
+5. In Your browser, navigate to "localhost".
+4. If content of github repository changes, using command in step 3 will also update the webpage on NGINX. Command can run in the background once in a while and the update will happen automatically (tested with "watch" command).
 
 ## Expected changes to be usable
 1. In inventory.ini change webserver.example.com for hostname recognized by DNS. You will also need to configure ssh to connect to the server.
