@@ -1,5 +1,5 @@
 # Website Deployment Using Ansible with NGINX
-Implementation of automation using Ansible. Program clones a website from specified github repository and runs it on server using NGINX (for testing purposes used localhost). Makes it easy to change website location or update website files.
+Implementation of automation using Ansible. Program clones a website from specified github repository and runs it on server using NGINX (for testing purposes used localhost). Makes it easy to change website source or update website files.
 The file structure was made based on the official ansible role directory structure: https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
 
 ## How to run
