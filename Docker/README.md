@@ -15,7 +15,7 @@ chmod 755 run.sh
 ```bash
 ./run.sh
 ```
-5. In Your browser, navigate to "localhost:8080".
+5. In Your browser, navigate to http://localhost:8080
 6. If content of github repository changes, using command in step 3 will also update the webpage on NGINX.
 
 ## Expected changes to be usable
