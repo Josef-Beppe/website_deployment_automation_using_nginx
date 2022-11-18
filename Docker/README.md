@@ -6,12 +6,16 @@ Website deployment automation using Docker. Program clones a website from specif
 ```bash
 apt install docker.io && apt install docker-compose
 ```
-2. Navigate to project folder
-3. Run:
+2. Navigate to the project folder
+3. Make run.sh executable by:
+```bash
+chmod 755 run.sh
+```
+4. Run:
 ```bash
 ./run.sh
 ```
-4. If content of github repository changes, using command in step 3 will also update the webpage on NGINX. Command can run in the background once in a while and the update will happen automatically (tested with watch command).
+5. If content of github repository changes, using command in step 3 will also update the webpage on NGINX.
 
 ## Expected changes to be usable
 1. Configure deployment to remote host (can be done in many ways).
