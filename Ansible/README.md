@@ -12,7 +12,7 @@ apt install ansible
 ```bash
 ansible-playbook site.yml
 ```
-5. In Your browser, navigate to "http://localhost".
+5. In Your browser, navigate to http://localhost.
 4. If content of github repository changes, using command in step 3 will also update the webpage on NGINX. Command can run in the background once in a while and the update will happen automatically (tested with "watch" command).
 
 ## Expected changes to be usable
