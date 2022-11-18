@@ -7,7 +7,7 @@ The file structure was made based on the official ansible role directory structu
 ```bash
 apt install ansible
 ```
-2. Navigate to project folder
+2. Navigate to the project folder
 3. Run:
 ```bash
 ansible-playbook site.yml
