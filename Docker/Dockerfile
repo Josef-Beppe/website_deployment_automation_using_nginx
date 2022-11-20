@@ -9,8 +9,10 @@ RUN rm -r /var/www/html/*
 
 WORKDIR /var/www/html
 
+# Nothing is taken from cache under CACHEBUST.
 ARG CACHEBUST=1
 
+# Argument "repo" is taken from --build-arg, while running "docker-compose build"
 ARG repo
 RUN git clone $repo .
 
