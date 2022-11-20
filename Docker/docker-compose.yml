@@ -3,7 +3,7 @@ services:
   web:
     image: webserver
     build: .
-    container_name: sample_site
+    container_name: sample_website
     restart: always
     ports:
       - "8080:80"
